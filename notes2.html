@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- 3rd way to write CSS: in sepearte files-->
+    <link href="./index.css" rel=" stylesheet">
+  <style>
+  /*full CSS format*/
+  /*1. selector -> p */
+  /* selects the tags to apply styles to*/
+  /*2. rule name -> color */
+  /*3 value -> red*/
+  p{
+    color: red;
+    font-size: 40px;
+    background-color: green;
+    font-family: 'Felipa', 'Arial', 'Times New Roman';
+  }
+  .redparagraph{
+    
+  }
+  #greyparagraph{
+    
+  }
+  h2{
+    color: blanchedalmond;
+  }
+  a{
+    color: mistyrose;
+  }
+  /* Inline styles trump everything*/
+  /* For syle and link tags, whatever comes last will be applied */
+  /* CSS is selective- if one thing is not specified, */
+  </style>
+  </head>
+  <body>
+    <!-- Inline format isn't very good. Can't be overriden -->
+    <!-- color is the rule and red is the value-->
+    <h2>Awesomeness</h2>
+    <p>Hi, I'm a paragraph</p>
+    <p class="redparagraph" id= "greyparagraph"> I should be red</p>
+    <!--ids, then classes, then tags-->
+  </body>
+</html>
